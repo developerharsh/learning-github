@@ -1,0 +1,22 @@
+git --version
+git init
+git remote add origin https://github.com/developerharsh/project-name
+git remote remove origin
+git remote -v
+git status
+git add filename
+git add --all
+git add .
+git rm --cached filename
+git config --global user.name "developerharsh"
+git config --global user.email "harshchauhan880@gmail.com"
+git commit -m "message"
+git pull --rebase origin master
+git log
+git push origin master
+git branch
+git branch branch-name
+git checkout branch-name
+git checkout -b branch-name
+git merge branch-name
+git clone url
